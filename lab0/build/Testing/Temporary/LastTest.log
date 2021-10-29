@@ -1,0 +1,27 @@
+Start testing: Oct 29 14:22 CST
+----------------------------------------------------------
+31/169 Testing: t_webget
+31/169 Test: t_webget
+Command: "/Users/houxinglin/cs144/lab0/tests/webget_t.sh"
+Directory: /Users/houxinglin/cs144/lab0/build
+"t_webget" start time: Oct 29 14:22 CST
+Output:
+----------------------------------------------------------
+shutdown: Bad file descriptor
+GET /nph-hasher/xyzzy HTTP/1.1
+Host: cs144.keithw.org
+
+
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   1.63 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: Oct 29 14:22 CST
+"t_webget" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 29 14:22 CST
